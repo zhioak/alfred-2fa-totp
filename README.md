@@ -78,7 +78,7 @@ rm github-plain
 
 ## ⚙️ 使用
 
-
+![Preview](https://raw.githubusercontent.com/zhioak/pics/master/picgo/2025-03%2FiShot_2025-03-19_17.31.33-1ca2dd.png)
 
 ## 特别鸣谢
 
