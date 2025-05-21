@@ -35,7 +35,7 @@ mkdir ~/.totp && cd ~/.totp
 写入秘钥文件
 
 ```bash
-echo 'SECRET' > github-plain
+echo 'SECRET' > github.txt
 ```
 
 ### 秘钥加密
@@ -61,19 +61,19 @@ sudo mv sshenc.sh /usr/local/bin/sshenc
 对明文加密
 
 ```bash
-sshenc -p ~/.ssh/id_rsa.pub < github-plain > github.key
+sshenc -p ~/.ssh/id_rsa.pub < github.txt > Github.key
 ```
 
 解密
 
 ```bash
-sshenc -s ~/.ssh/id_rsa < github.key
+sshenc -s ~/.ssh/id_rsa < Github.key
 ```
 
 删除明文秘钥
 
 ```bash
-rm github-plain
+rm github.txt
 ```
 
 ## ⚙️ 使用
